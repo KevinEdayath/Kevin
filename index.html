@@ -1,231 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
-
-    <script src="https://kit.fontawesome.com/432625685c.js" crossorigin="anonymous"></script>
-
-    <style>
+<head><link rel="stylesheet" href="./coffeesite.css">
+    <script src="https://kit.fontawesome.com/9c7ec6187a.js" crossorigin="anonymous"></script>
+    <div class="az">
 
 
-.nav-link{
-font-weight: 500;
-    color:grey;
-}
-.nav-link:hover{
-    color:blueviolet;
-    
-
-    
-}
-
-.top{
-
-    background-color: rgb(79, 14, 139);
-    height:50px;
-
-}
-
-
-
-.slider img{
-    height:500px;
-
-
-
-}
-
-.slidediv{
-
-    height: 500px;
-}
-
-
-.carousel-caption{
-
-    width:600px;
-    text-align: left;
-}
-
-.button{
-background-color: rgb(87, 35, 135);
-    border-radius: 30px;
-    color:white;
-    border:1px solid transparent;
-    padding:10px;
-    font-size: large;
-}
-
-
-.modal-content{
-padding-left: 50px;
-padding-right: 50px;
-    width: 700px;
-    
-}
-
-
-
-    </style>
-</head>
-    <body>
-        <div class="top">
-
-        </div>
-    
-
-    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: white;">
-        <div class="container">
-            <a class="navbar-brand text-white" href="#" ><img src="http://web.archive.org/web/20211126071459im_/https://luminartechnolab.com/img/frontend/logo/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
-                     <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
-                    
-                </ul> 
-
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item ">
-                        <a class="nav-link " href="#">HOME</a>
-
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link  " href="#">ABOUT</a>
-
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="#">COURSES</i></a>
-
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link  " href="#">OUR PLACEMENTS</i></a>
-
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link  " href="#">GALLERY</i></a>
-
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link  " href="#">CONTACT</i></a>
-
-                    </li>
-                    
-                </ul>
-                
-
-            </div>
-        </div>
-    </nav>
-
-
-
-    <!-- slide -->
-
-
-
-    <div id="carouselExampleCaptions" class="carousel slide slidediv" data-bs-ride="true" >
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div>
-        <div class="carousel-inner" >
-          <div class="carousel-item active slider" data-bs-interval="1000" >
-            <img src="http://web.archive.org/web/20211126071541im_/https://www.luminartechnolab.com/img/frontend/slider/5.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption  d-none d-md-block">
-              <h1 style="text-align: left;">Kerala's No:1 IT finishing school
-            <br>
-        100% placement assistance</h1>
-              
-              <br>
-              <p >We at Luminar Technolab offers best sotware training and placement in <br>
-                emerging technologies like Big Data, Data Science, Machine Learning, Python,<br>
-    Software Testing </p>
-    <br>
-
-    <button class=" button">View Courses</button>
-            </div>
-          </div>
-          <div class="carousel-item slider " data-bs-interval="500" >
-            <img src="http://web.archive.org/web/20211126071604im_/https://www.luminartechnolab.com/img/frontend/slider/6.jpg" class="d-block w-100" alt="..." >
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Data Science,ML & AI <br>
-            Big data - Hadoop & Spark <br>
-        Python Data Science</h1>
-        <br>
-              <p>We LUMINAR TECHNOLAB offers best software training and placement in <br> emerging technologies like Big Data, Hadoop, Spark,Data Scince, Machine <br> Learning, Deep Learning and AI.</p>
-              <button class=" button">View Courses</button>
-            </div>
-          </div>
-          
-          
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    
-
-      <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Register
-  </button>
-  
-  <!-- Modal -->
-  <!-- Modal -->
-<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-    <div class="modal-dialog ">
-      <div class="modal-content ">
-        <div class="modal-header">
-          <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body " >
-
-            <H3>Get Training Quote for free</H3>
-          <form action="">
-
-            <input type="text" placeholder="Name" style="border:none; height:20px"><hr>
-            <input type="email" placeholder="Email" style="border:none ; height:20px"><hr>
-            <input type="text" placeholder="Phone number" style="border:none ; height:20px"><hr>
-            <select name="" id="" >
-                <option value="" >Select course interested in</option>
-                <option value="">mearn stack</option>
-                <option value="">pyhon django </option>
-                <option value="">flutter</option>
-            </select><hr>
-            <input type="text" placeholder="City" style="border: none; height:20px"><hr>
-            <input type="text" placeholder="Comments" style="border: none; height:50px" ><br><br><br><hr>
-
-          </form>
-
-          <br>
-          <button class="btn btn-primary p2">Submit</button>
-        </div>
-        <div class="modal-footer">
-            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button> -->
-          </div>
-        </div>
-      </div>
     </div>
+
+
+
+<div class="jk">
+    <div class="icon"><h1 class="cof">COFFEE <span>AURA</span></h1></div>
+    <div class="mug"><img class="cofmug" src="./images/thebestcoffeehouse.jpg" alt=""></div>
+  
+   
+
+
+
+</div>
+</head>
+
+<body>
+    <div class="qw">
+    
+   <div class="jill"><i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" id="q">
+   <a href="" class="shop">SHOP</a>
+   <a href="" class="Join">AURA Club</a>
+   <a href="" class="whole">Wholesale</a>
+</div> 
+</div>
+<div class="q"><h1 class="qrr">Types Of Coffee Cherries in Our Estate:</h1></div>
+
+<div class="cherry">
+<div class="photo"><img  src="./images/burlywood.jpg" class="ph" alt="">
+<h1 class="h">Coffea <span class="color">Arabica:</span> </h1><br>
+<div class="arabica"><img class="typo" src="./images/Coffeea arabica.webp" alt=""></div>
+</div>
+
+<div class="che">
+    <div class="hoto"><img  src="./images/burlywood.jpg" class="pot" alt="">
+        <h1 class="adsf">Robusta<span class="alal">Arabica:</span> </h1><br>
+        <div class="robusta"><img class="tpo" src="./images/robusta-arabica-coffee-beans-a-grade-500x500.webp" alt=""></div>
+    </div>
+
+
+
+
+</div>
+
 </body>
-</html>
+<footer>
+    <div class="footer">
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i><br><br>
+            <i class="fa-brands fa-instagram"></i><br><br>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="solution">
+            <h4>For Skin Care</h4>
+            <h4>Body Immnuity</h4>
+            <h4>Fragrant Perfume</h4>
+            <h4>Aura</h4>
+        </div>
+        <div class="yourneeds">
+            <h4></h4>
+            <h4></h4>
+            <h4></h4>
+            <h4></h4>
+            
+        </div>
+        <div class="news">
+            <input type="text" placeholder="Enter Email" id="nee"><br><br>
+            <button id="sub">Subscribe</button>
+        </div>
+    </div>
+
+
+</footer>
