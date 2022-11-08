@@ -1,0 +1,288 @@
+.photo{
+    height: 810px;
+    background-image: url(./img/DSC05382copyedi.JPG);
+    margin-top: -1%;
+    position: relative;
+}
+.photo:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    
+}
+.head{
+    position: absolute;
+    padding-top: 240px;
+    padding-left: 100px;
+    font-size: 400%;
+    font-weight: bold;
+    
+}
+.name{
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 94px;
+    font-size: 900%;
+    font-weight: bolder;
+}
+.actor{
+    position: absolute;
+    padding-top: 460px;
+    padding-left: 112px;
+    font-size: 210%;
+    font-weight:600;
+}
+.bi{
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    height: 20px;
+    width: 20px;
+    
+}
+.bi:hover{
+    height: 25px;
+    width: 25px;
+}
+.bil{
+    position: absolute;
+    top: 10px;
+    left: 34px;
+    height: 20px;
+    width: 20px;
+}
+.bil:hover{
+    height: 25px;
+    width: 25px;
+}
+.bilu{
+    position: absolute;
+    top: 10px;
+    left: 61px;
+    height: 20px;
+    width: 20px;
+}
+.bilu:hover{
+    height: 25px;
+    width: 25px;
+}
+.biio{
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    height: 20px;
+    width: 20px;
+}
+.biio:hover{
+    height: 25px;
+    width: 25px;
+    box-shadow: 20px;
+    
+}
+.biq{
+    position: absolute;
+    top: 10px;
+    left: 109px;
+    height: 20px;
+    width: 20px;
+}
+.biq:hover{
+    box-shadow: 20px;
+    height: 25px;
+    width: 25px;
+}
+
+.p{
+    height: 200px;
+    width: 150px;
+    border-radius: 60% ;
+    position: absolute;
+    top: -1px;
+    left: 640px;
+    border: 30px;
+    border-color:white;
+}
+.p:hover{
+    height: 210px;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+h2{
+    font-weight:600;
+}
+.navbar{
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.navbar:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.col-sm{
+    
+    color: #28282B;
+    background-color: #C0C0C0
+}
+.who{
+    font-size: 250%;
+    font-weight: 500;
+    text-decoration:solid gray;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.whoinfo{
+    margin-left: 15%;
+}
+.info{
+    font-size: 250%;
+    font-weight:500;
+    text-decoration:solid gray;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.exper{
+    font-size: 250%;
+    font-weight:500;
+    text-decoration:solid gray;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.fresheract{
+    text-align:left;
+}
+.birth{
+    font-weight: 640;
+}
+.date{
+    font-size: 90%;
+    font-weight: lighter;
+    color: #686A6C   ;
+}
+.email{
+    font-weight: 640;
+}
+.mail{
+    font-size: 90%;
+    font-weight: lighter;
+    color: #686A6C   ;
+}
+.phone{
+    font-weight: 640; 
+}
+.numberph{
+    font-size: 90%;
+    font-weight: lighter;
+    color: #686A6C   ;
+}
+.pint{
+    font-weight: 640; 
+ 
+}
+.pinid{
+    font-size: 90%;
+    font-weight: lighter;
+    color: #686A6C   ;
+}
+.addres{
+    font-weight: 640;
+}
+.details{
+    font-size: 90%;
+    font-weight: lighter;
+    color: #686A6C   ; 
+}
+.theatre{
+    font-weight: 700; 
+}
+.hrcla{
+    color: black;
+    width: 60%;
+    margin-left: 80px;
+}
+
+.myresume{
+    height: 1000px;
+    background-color: #C0C0C0;
+    position: relative;
+    
+}
+.myy{
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    font-weight: 600;
+}
+.spanmy{
+    color:#686A6C;
+   
+}
+#card1{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 100px;
+    top: 150px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #C0C0C0;
+}
+#card2{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 560px;
+    top: -850px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#card3style{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 1020px;
+    top: -850px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.probar{
+    position: relative;
+    height: 200px;
+    
+}
+.progress{
+    margin-top: -90px;
+    margin-left: 20px;
+    height: 50px;
+    width: 400px;
+    
+}
+#navrab{
+    height: 100px;
+}
+.headshots{
+    position: relative;
+    height: 850px;
+    background-color: #C0C0C0;
+    
+}
+.headqwer{
+    font-weight: 700;
+    
+}
+
+.d-block{
+    height: 650px;
+    width: max-content;
+   margin-left: 550px;
+}
+.e-block{
+    height: 650px;
+    width: max-content;
+   margin-left: 220px;
+}
+.forqueries{
+    position: relative;
+    height: 474px;
+    background-color: #C0C0C0;
+    top: -105px;
+}
+body{
+    background-color: #C0C0C0;
+}
