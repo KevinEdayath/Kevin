@@ -1,6 +1,6 @@
 .photo{
     height: 810px;
-    background-image: url(./images/DSC05382copyedi.JPG);
+    background-image: url(./img/DSC05382copyedi.JPG);
     margin-top: -1%;
     position: relative;
 }
@@ -129,6 +129,9 @@ h2{
     margin-top: 20%;
     margin-left: 15%;
 }
+.whoinfo{
+    margin-left: 15%;
+}
 .info{
     font-size: 250%;
     font-weight:500;
@@ -142,6 +145,9 @@ h2{
     text-decoration:solid gray;
     margin-top: 20%;
     margin-left: 15%;
+}
+.fresheract{
+    text-align:left;
 }
 .birth{
     font-weight: 640;
