@@ -1,0 +1,16 @@
+.card-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .card{
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        left: 30%;
+        margin-top: 8%;
+        background-color: aliceblue;
+    }
+    #u1{
+        border-radius: 5%;
+    }
