@@ -5,6 +5,8 @@ function allclear(){
     result.value=''
 }
 function evaluateExp(){
+    //currentexp=result.value
+    //result.value
     result.value=eval(result.value)
 }
 function backspace(){
